@@ -1,0 +1,108 @@
+.popular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.popular__title {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: 0.75px;
+    text-align: center;
+}
+
+.popular__subtitle {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #9f9f9f;
+}
+
+.popular__cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.popular__card {
+    width: 252px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.popular__card-wrap {
+    height: 280px;
+    position: relative;
+}
+
+.popular__card:hover .popular__popupBuy {
+    display: flex;
+}
+
+.popular__card:hover {
+    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16);
+}
+
+.popular__card_img {
+    width: 100%;
+    height: inherit;
+    display: block;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.popular__popupBuy {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    justify-content: center;
+    background: #3a3838;
+    opacity: 0.7;
+}
+
+.popular__card-button_buy {
+    width: 123px;
+    height: 39px;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    border: #ffffff solid 1px;
+    margin-top: 94px;
+}
+
+.popular__card-description {
+    padding: 18px 10px 18px 15px;
+}
+
+.popular__item-name {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.popular__price {
+    margin-top: 13px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #f16d7f;
+}
+
+.popular__browse_button {
+    width: 212px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 3.38;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f16d7f;
+    margin: 38px auto 13px;
+
+}

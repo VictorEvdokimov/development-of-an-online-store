@@ -1,0 +1,18 @@
+.topNav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 680px;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+}
+
+.topNav a {
+    text-decoration: none;
+    color: #222222;
+    font-size: 14px;
+    text-transform: uppercase;
+    max-width: 680px;
+    margin: 0 auto;
+    font-weight: 900;
+}

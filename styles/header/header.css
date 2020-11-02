@@ -1,0 +1,110 @@
+.header {
+    border-bottom: 1px solid #ececec;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.headerContent {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerContent .logo {
+    background: url(../../image/group_2_18.png) no-repeat;
+    padding-left: 72px;
+    height: 51px;
+    width: 169px;
+    line-height: 51px;
+    font-size: 27px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    text-decoration: none;
+    color: #222222;
+    box-sizing: border-box;
+}
+
+.logo span {
+    font-weight: bold;
+    color: #f16d7f;
+}
+
+.searchForm {
+    width: 403px;
+    height: 38px;
+    margin-left: 37px;
+}
+
+.searchFormContent {
+    display: flex;
+}
+
+.searchFormContent button {
+    border: 1px solid #e6e6e6;
+}
+
+.searchForm button {
+    width: 42px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+.browse {
+    width: 97px;
+    background-color: #cdcdcc;
+    background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
+    border: 1px solid #e6e6e6;
+    border-radius: 3px 0px 0px 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 8px;
+    box-sizing: border-box;
+}
+
+.container i {
+    margin-left: 8px;
+}
+
+.searchForm .fa-caret-down {
+    color: #838383;
+}
+
+.searchForm button, .inputSearch::placeholder {
+    color: #a4a4a4;
+}
+
+.inputSearch {
+    width: 279px;
+    height: 38px;
+    background-color: #ffffff;
+    border: none;
+    border-top: 1px solid #e6e6e6;;
+    border-bottom: 1px solid #e6e6e6;
+    padding-left: 15px;
+    padding-right: 8px;
+}
+
+.myBasket {
+    margin-left: auto;
+    margin-right: 26px;
+}
+
+.account {
+    width: 130px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f16d7f;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
