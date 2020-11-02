@@ -2,5 +2,7 @@
 @import "header/header.css";
 @import "topNav/topNav.css";
 @import "topBanner/topBanner.css";
-@import "offers/offers.css";
+@import "fetured-items/fetured-items.css";
 @import "popular/popular.css";
+@import "offer/offer.css";
+@import "feedback-subscription/feedback-subscription.css";

@@ -1,0 +1,58 @@
+.fetured-items__content {
+    display: flex;
+    justify-content: center;
+    margin-top: 98px;
+}
+
+.fetured-items__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fetured-items-column:not(:last-child) {
+    margin-right: 20px;
+}
+
+.fetured-items__card {
+    position: relative;
+}
+
+.fetured-items__card:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.fetured-items__card_img {
+    max-width: 560px;
+    display: block;
+    width: 100%;
+}
+
+.fetured-items__card-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50px;
+    position: absolute;
+    top: 27px;
+    left: 0;
+    background-color: #ffffff;
+    padding: 16px 20px;
+}
+
+.fetured-items__card-label_title {
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 900;
+    letter-spacing: 0.45px;
+}
+
+.fetured-itemss__card-lable_direction {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: 900;
+    letter-spacing: 0.75px;
+    color: #f16d7f;
+}

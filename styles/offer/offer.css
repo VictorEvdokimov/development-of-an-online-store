@@ -1,0 +1,89 @@
+.offer {
+    display: flex;
+    margin-top: 100px;
+}
+
+.offer__poster{
+    position: relative;
+    flex-grow: 1;
+}
+
+.offer__label {
+    position: absolute;
+    top: 144px;
+    left: 36px;
+}
+
+.offer__label-title {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 52px;
+    line-height: 45px;
+    letter-spacing: 1.34px;
+    font-weight: 700;
+}
+
+.offer__label-title span {
+    color: #f16d7f;
+}
+
+.offer__label-section {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    font-stretch: normal;
+    letter-spacing: 0.8px;
+}
+
+.offer__poster_img {
+    height: 100%;
+    background: url(../../image/Layer38.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.offer__content {
+    display: flex;
+    flex-direction: column;
+    background-color: #222224;
+    color: #ffffff;
+    padding: 48px 30px 60px 31px;
+    width: 32%;
+}
+
+.offer__content-item {
+    padding-left: 25%;
+    position: relative;
+    max-height: 104px;
+}
+
+.offer__content-item:not(:first-child) {
+    margin-top: 54px;
+}
+
+.offer__icon {
+    position: absolute;
+    left: 2px;
+
+}
+
+.offer__title {
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #fbfbfb;
+}
+
+.offer__description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    color: #fbfbfb;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
