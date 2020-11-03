@@ -1,0 +1,32 @@
+.copyright {
+    background-color: #e6e6e6;
+}
+
+.copyrightWrap {
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 42px;
+    letter-spacing: 0.4px;
+    color: #7a7a7a;
+}
+
+.copyright__content-list {
+    display: flex;
+}
+
+.copyright__link {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #b2b2b2;
+    background-color: #ffffff;
+}
+
+.copyright__link:not(:last-child) {
+    margin-right: 8px;
+}
