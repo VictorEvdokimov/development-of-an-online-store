@@ -15,4 +15,13 @@
     max-width: 680px;
     margin: 0 auto;
     font-weight: 900;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+}
+
+.topNav a:hover {
+    border-bottom: 3px solid #ef5b70;
 }
