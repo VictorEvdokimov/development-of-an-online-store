@@ -1,0 +1,121 @@
+.orderFormation {
+    margin-top: 63px;
+}
+
+.orderFormationWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 79px;
+}
+
+.orderFormationWrap> form {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+}
+
+.orderFormationWrap input {
+    height: 45px;
+    border: solid 1px #eaeaea;
+    font-size: 13px;
+    padding-left: 17px;
+    outline: none;
+}
+
+.orderFormationWrap input::placeholder {
+    color: #b1b1b1;
+}
+
+.orderFormationWrap h3 {
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.orderFormation-coupon__subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 28px;
+}
+
+.orderFormation-coupon__input {
+    margin-top: 24px;
+}
+
+.orderFormation__select {
+    margin-top: 22px;
+    height: 45px;
+    border: solid 1px #eaeaea;
+    color: #b1b1b1;
+    padding-left: 16px;
+    outline: none;
+}
+
+.orderFormation-shipping__form> input {
+    margin-top: 20px;
+}
+
+.orderFormation__btn {
+    margin-top: 23px;
+    width: 100px;
+    height: 35px;
+    border: solid 1px #eaeaea;
+    background-color: #ffffff;
+    font-size: 11px;
+    font-weight: 900;
+    color: #4a4a4a;
+}
+
+.orderFormation-payment {
+    height: fit-content;
+    padding-top: 40px;
+    padding-bottom: 42px;
+    padding-left: 42px;
+    padding-right: 42px;
+    background-color: #f5f3f3;
+}
+
+.orderFormation-paymentWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.orderFormation-paymentWrap> :first-child {
+    font-size: 11px;
+    color: #4a4a4a;
+}
+
+.orderFormation-paymentWrap> :last-child {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.orderFormation-payment__content {
+    display: flex;
+}
+
+.orderFormation-paymentWrap> :last-child {
+    margin-top: 14px;
+}
+
+.orderFormation-payment__value {
+    margin-left: 10px;
+}
+
+.value_grandTotal {
+    color: #f16d7f;
+}
+
+.orderFormation-payment__btn {
+    width: 272px;
+    height: 50px;
+    margin-top: 17px;
+    background-color: #f16d7f;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}

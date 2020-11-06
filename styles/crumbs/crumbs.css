@@ -15,6 +15,7 @@
     font-weight: 900;
     line-height: 20px;
     color: #f16d7f;
+    text-transform: uppercase;
 }
 
 .crumbs__links a {

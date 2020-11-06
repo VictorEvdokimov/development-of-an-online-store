@@ -130,9 +130,73 @@
                     </div>
                 </div>
             </div>
-            <div class="product__content"
+            <div class="productsContent__buttons">
+                <button class="product__button">Clear shopping cart</button>
+                <button class="product__button">Continue shopping</button>
+            </div>
         </div>
     </section>
+    <div class="orderFormation">
+        <div class="orderFormationWrap container">
+            <form class="orderFormation-shipping__form">
+                <h3 class="orderFormation__title">Shipping Adress</h3>
+                <select class="orderFormation__select" required="">
+                    <option>Bangladesh</option>
+                    <option>Russia</option>
+                    <option>Australia</option>
+                </select>
+                <input class="orderFormation__input-state" placeholder="State">
+                <input class="orderFormation__input-zip" placeholder="Postcode/Zip">
+                <button class="orderFormation__btn">Get a quote</button>
+            </form>
+            <form class="orderFormation-coupon__form">
+                <h3 class="orderFormation-coupon__title">Coupon discount</h3>
+                <p class="orderFormation-coupon__subtitle">Enter your coupon code if you have one</p>
+                <input class="orderFormation-coupon__input" placeholder="State">
+                <button class="orderFormation__btn">Apply coupon</button>
+            </form>
+            <div class="orderFormation-payment">
+                <div class="orderFormation-paymentWrap">
+                    <div class="orderFormation-payment__content">
+                        <p class="orderFormation-payment__key key_subTotal">Sub total</p>
+                        <p class="orderFormation-payment__value value_subTotal">$900</p>
+                    </div>
+                    <div class="orderFormation-payment__content">
+                        <p class="orderFormation-payment__key key_grandTotal">Grand total</p>
+                        <p class="orderFormation-payment__value value_grandTotal">$900</p>
+                    </div>
+                </div>
+                <button class="orderFormation-payment__btn">Procced to checkout</button>
+            </div>
+        </div>
+    </div>
+    <div class="feedback-wrap">
+        <div class="feedback-subscription container">
+            <div class="feedback">
+                <div class="feedback-author">
+                    <img class="feedback-author__img" src="image/reviewPerson.png" alt="photo">
+                    <div class="feedback-author__content">
+                        <p class="feedback-author__review">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae in nobis sint nesciunt suscipit unde aspernatur porro incidunt corporis.</p>
+                        <p class="feedback-author__name">John Carter</p>
+                        <p class="feedback-author__from">Dubai</p>
+                    </div>
+                </div>
+                <div class="ellipsis">
+                    <div class="ellipsis__item"></div>
+                    <div class="ellipsis__item"></div>
+                    <div class="ellipsis__item"></div>
+                </div>
+            </div>
+            <div class="subscription">
+                <div class="subscription__title">Subscribe </div>
+                <p class="subscription__subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form name="subscription-form" class="subscription__form">
+                    <input class="subscription__input" type="email" placeholder="mail@mail.ru">
+                    <button class="subscription__btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <footer class="footer">
         <div class="footerWrap container">
             <div class="footer__aboutSite">
