@@ -1,0 +1,26 @@
+.madelWrap {
+    position: relative;
+}
+
+.model__img {
+    min-height: 777px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.modelSlider__slider {
+    position: absolute;
+    height: 47px;
+    width: 47px;
+    background-color: #d8d8d8;
+}
+
+.modelSlider__slider_left {
+    left: 0;
+    top: calc(50% - 23.5px);
+}
+
+.modelSlider__slider_right {
+    right: 0;
+    top: calc(50% - 23.5px);
+}
