@@ -12,3 +12,5 @@
 @import "products/products.css";
 @import "orderFormation/orderFormation.css";
 @import "model/model.css";
+@import "model/modelDataWrap.css";
+@import "alsoLike/alsoLike.css";

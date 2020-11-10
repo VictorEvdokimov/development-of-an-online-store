@@ -1,4 +1,4 @@
-.madelWrap {
+.modelSlider {
     position: relative;
 }
 
@@ -10,9 +10,16 @@
 
 .modelSlider__slider {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 47px;
     width: 47px;
+    color: #ffffff;
     background-color: #d8d8d8;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
 }
 
 .modelSlider__slider_left {

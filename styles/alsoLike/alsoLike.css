@@ -1,0 +1,47 @@
+.alsoLike {
+    text-align: center;
+}
+
+.alsoLike__title {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #4d4d4d;
+    text-transform: uppercase;
+}
+
+.alsoLike__content {
+    /* display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    flex-wrap: wrap; */
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* margin-top: 40px; */
+    grid-column-gap: 31px;
+    grid-row-gap: 40px;
+    margin-top: 72px;
+}
+
+.alsoLike__card {
+    text-align: left;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.alsoLike__cardName {
+    font-size: 14px;
+    color: #6f6e6e;
+    margin-left: 14px;
+    margin-top: 18px;
+}
+
+.alsoLike__price {
+    margin-left: 14px;
+    font-size: 16px;
+    font-weight: 900;
+    color: #f16d7f;
+    margin-top: 17px;
+    margin-bottom: 21px;
+}

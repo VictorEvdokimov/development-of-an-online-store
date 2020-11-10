@@ -23,24 +23,16 @@
 
 .popular__cards-list {
     display: grid;
-    /* justify-content: space-between; */
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 40px;
     grid-column-gap: 45px;
     grid-row-gap: 40px;
 }
 
-/* .popular__cards-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-top: 40px;
-} */
+
 
 .popular__card {
     width: 252px;
-    /* margin-top: 20px;
-    margin-bottom: 20px; */
 }
 
 .popular__card-wrap {
