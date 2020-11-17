@@ -14,3 +14,7 @@
 @import "model/model.css";
 @import "model/modelDataWrap.css";
 @import "alsoLike/alsoLike.css";
+@import "trendingNow/trendingNow.css";
+@import "productsTrendGrid/productsTrendGrid.css";
+@import "productsPagination/productsPagination.css";
+@import "offer/productOffer.css";

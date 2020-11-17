@@ -1,0 +1,184 @@
+.productsTrendContainer {
+    display: flex;
+    margin-top: 59px;
+}
+
+.productsTrendMenuWrap {
+    line-height: 37px;
+    width: 28%;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+.card> div.card-header {
+    margin-bottom: 0!important;
+    margin: 0;
+    border-left: 5px solid #ef5b70;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 33px;
+    color: #ef5b70;
+    text-transform: uppercase;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background: url(../../image/caret-down-solid.svg) no-repeat right 5px center;
+    background-size: 10px;
+}
+
+.accordion .card-header :not(:first-child) {
+    margin-top: 20px;
+}
+
+#productsMenuWrap> .card {
+    border: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.card-body> a {
+    color: #6f6e6e; 
+}
+
+div.card-body {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    line-height: 33px;
+    letter-spacing: normal;
+    padding: 0 15px 0 20px !important;
+}
+
+
+.productsTrendList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.productsTrendParam {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.productsTrendParam__item {
+    width: calc(100%/3 - 15px);
+}
+
+.productsTrendParam__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #6f6e6e;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.productsTrendParamWrap {
+    color: #6f6e6e;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.trendingDivider {
+    color: #dfdfdf;
+    padding: 0 10px;
+}
+
+.productsTrendParamCheckBoxs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productsTrendParamCheckBoxs div {
+    width: 62px;
+    line-height: 1.5;
+}
+
+.productsTrendParamCheckBoxs> div input[type="checkbox"] {
+    display: none;
+}
+
+
+.productsTrendParamCheckBoxs> div .productsCheckbox {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url(../../image/checkbox.png) no-repeat;
+}
+
+.productsTrendParamCheckBoxs> div input[type="checkbox"]:checked + .productsCheckbox {
+    background: url(../../image/checkbox.png) no-repeat, url(../../image/check-solid.svg) no-repeat;
+    background-size: contain, 12px;
+    background-blend-mode: multiply;
+}
+
+.productsTrendParamCheckBoxs> div label {
+    margin-bottom: auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6f6e6e;
+    cursor: pointer;
+}
+
+.productsTrendParamRange {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6f6e6e;
+}
+
+.productsTrendParam__item> img {
+    width: 100%;
+}
+
+.productsTrendSort {
+    padding: 10px;
+    background-color: #f3f3f3;
+    display: flex;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.productsTrendSortUnit:first-child {
+    margin-right: 10px;
+}
+
+.productsTrendSortUnit {
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    background: #ffffff;
+    height: 30px;
+    display: flex;
+}
+
+.productsTrendSortUnit>label {
+    color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 700;
+    height: 100%;
+    line-height: 30px;
+    line-height: 27px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: block;
+}
+
+.productsTrendSortUnit> select {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+    background: url(../../image/caret-down-solid.svg) no-repeat right 5px center;
+    color: #6f6e6e;
+    line-height: 28px;
+    padding-left: 10px;
+    -webkit-appearance: none;
+    background-size: 9px;
+    padding-right: 26px;
+}
