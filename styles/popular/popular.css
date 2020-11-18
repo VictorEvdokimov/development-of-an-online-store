@@ -29,16 +29,28 @@
     grid-row-gap: 40px;
 }
 
-
-
-/* .popular__card {
-    width: 252px;
-} */
-
 .popular__card-wrap {
     height: 280px;
     position: relative;
 }
+
+.productsTrendGrid__card {
+    cursor: pointer;
+}
+
+.productsTrendGrid__card:hover .popular__card_img {
+    animation: popular__card_img 1s linear .1s infinite alternate;
+}
+
+@keyframes popular__card_img {
+    from {
+        transform: scale(1, 1)
+    }
+    to {
+        transform: scale(1.1, 1.1)
+    }
+}
+
 
 .popular__card:hover .popular__popupBuy {
     display: flex;

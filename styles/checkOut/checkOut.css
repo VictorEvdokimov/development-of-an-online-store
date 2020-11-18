@@ -1,0 +1,160 @@
+.checkOutWrap {
+    margin: 90px auto;
+}
+
+.checkOutDetails {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.checkOutDetails:not(:first-child) {
+    margin-top: 30px;
+}
+
+.checkOutDetails summary {
+    position: relative;
+    outline: none;
+    left: 1px;
+}
+
+.checkOutHeader {
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    left: -1px;
+    top: 0;
+    background: white;
+}
+
+.checkOutHeader:hover {
+    color: #f16d7f;
+    cursor: pointer;
+}
+
+.checkOutData {
+    margin-top: 40px;
+}
+
+.checkOutDataShippingWrap {
+    padding: 0 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkOutDataShippingFormGuest,
+.checkOutDataShippingSignIn {
+    width: calc(50% - 15px);
+}
+
+.checkOutDataShippingHead {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.checkOutDataShippingComment {
+    color: #b3b2b2;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#reg1,
+#reg2 {
+    display: none;
+}
+
+label[for="reg1"],
+label[for="reg2"] {
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background: url(../../image/regEmpty.png) no-repeat left center;
+}
+
+#reg1:checked + label,
+#reg2:checked + label {
+    background: url(../../image/regChecked.png) no-repeat left center;
+}
+
+.checkOutDataShippingRegHead {
+    color: #222222;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.checkOutDataShippingRegComment {
+    background: url(../../image/arrows.png) no-repeat left center;
+    padding-left: 12px;
+    color: #b3b2b2;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.ShippingRegBtnContinue {
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    background: none;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.checkOutDataShippingSignInForm label,
+.checkOutDataShippingSignInForm input {
+    display: block;
+}
+
+.checkOutDataShippingSignInForm label {
+    color: #222222;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.checkOutDataShippingSignInForm label span {
+    color: #ff0d0d;
+    font-size: 17px;
+}
+
+.checkOutDataShippingSignInForm input {
+    border: 1px solid #eaeaea;
+    padding: 14px;
+    outline: none;
+    margin-bottom: 20px;
+    width: 65%;   
+}
+
+.checkOutDataShippingSignInReqComment {
+    color: #ff0d0d;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.checkOutDataShippingSignInForm button {
+    border: 1px solid #eaeaea;
+    color: #4a4a4a;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    padding: 20px 50px;
+    cursor: pointer;
+}
+
+.checkOutDataShippingSignInFormForgot {
+    margin-left: 30px;
+    color: #222222;
+    font-size: 14px;
+    line-height: 20px;
+}

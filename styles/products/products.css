@@ -65,6 +65,12 @@
     border-bottom: solid 1px #eaeaea;
 }
 
+.product__item:hover {
+    background-color: #b6dff1;
+    cursor: pointer;
+    transition: background-color 1s linear 0.1s;
+}
+
 .product__about {
     display: flex;
     flex-direction: column;

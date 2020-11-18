@@ -17,6 +17,10 @@ button {
     padding: 0;
 }
 
+.container {
+  padding: 0!important;
+}
+
 /* h1,
 h2,
 h3,
