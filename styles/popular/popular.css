@@ -22,22 +22,35 @@
 }
 
 .popular__cards-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(220px, 250px));
     margin-top: 40px;
-}
-
-.popular__card {
-    width: 252px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    grid-column-gap: 45px;
+    grid-row-gap: 40px;
 }
 
 .popular__card-wrap {
     height: 280px;
     position: relative;
 }
+
+.productsTrendGrid__card {
+    cursor: pointer;
+}
+
+.productsTrendGrid__card:hover .popular__card_img {
+    animation: popular__card_img 1s linear .1s infinite alternate;
+}
+
+@keyframes popular__card_img {
+    from {
+        transform: scale(1, 1)
+    }
+    to {
+        transform: scale(1.1, 1.1)
+    }
+}
+
 
 .popular__card:hover .popular__popupBuy {
     display: flex;
@@ -105,4 +118,33 @@
     background-color: #f16d7f;
     margin: 38px auto 13px;
 
+}
+
+@media (max-width: 1140px) {
+    .popular__cards-list {
+        grid-template-columns: repeat(3, minmax(220px, 250px));
+        grid-column-gap: 8vw;
+    }
+}
+
+@media (max-width: 960px) {
+    .popular__cards-list {
+        grid-template-columns: repeat(2, minmax(220px, 250px));
+        grid-column-gap: 12vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .popular__cards-list {
+        grid-template-columns: repeat(1, minmax(220px, 285px));
+        /* grid-column-gap: 12vw; */
+    }
+
+    .popular__card-wrap {
+        height: auto;
+    }
+
+    .popular__card_img {
+        height: auto;
+    }
 }

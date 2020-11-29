@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brand</title>
+    <link rel="shortcut icon" href="image/favicon.ico" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles/index.css">
 </head>
@@ -18,8 +19,10 @@
                     <button><i class="fas fa-search"></i></button>
                 </div>
             </form>
-            <img class="myBasket" src="image/basket.png" alt="My badket">
-            <div class="account">My account<i class="fas fa-caret-down"></i></div>
+            <div>
+                <img class="myBasket" src="image/basket.png" alt="My badket">
+                <div class="account">My account<i class="fas fa-caret-down"></i></div>
+            </div>
         </div>
     </header>
     <nav class="topNav">
@@ -87,7 +90,19 @@
                     <div class="popular__popupBuy">
                         <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
                     </div>
-                    <img class="popular__card_img" src="image/Layer4.png" alt="image">
+                    <img class="popular__card_img" src="image/Layer2.png" alt="image">
+                </div>
+                <div class="popular__card-description">
+                    <h5 class="popular__item-name">Mango People T-shirt</h5>
+                    <p class="popular__price">$50</p>
+                </div>
+            </div>
+            <div class="popular__card">
+                <div class="popular__card-wrap">
+                    <div class="popular__popupBuy">
+                        <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
+                    </div>
+                    <img class="popular__card_img" src="image/Layer3.png" alt="image">
                 </div>
                 <div class="popular__card-description">
                     <h5 class="popular__item-name">Mango People T-shirt</h5>
@@ -111,7 +126,7 @@
                     <div class="popular__popupBuy">
                         <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
                     </div>
-                    <img class="popular__card_img" src="image/Layer4.png" alt="image">
+                    <img class="popular__card_img" src="image/Layer5.png" alt="image">
                 </div>
                 <div class="popular__card-description">
                     <h5 class="popular__item-name">Mango People T-shirt</h5>
@@ -123,7 +138,7 @@
                     <div class="popular__popupBuy">
                         <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
                     </div>
-                    <img class="popular__card_img" src="image/Layer4.png" alt="image">
+                    <img class="popular__card_img" src="image/Layer6.png" alt="image">
                 </div>
                 <div class="popular__card-description">
                     <h5 class="popular__item-name">Mango People T-shirt</h5>
@@ -135,7 +150,7 @@
                     <div class="popular__popupBuy">
                         <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
                     </div>
-                    <img class="popular__card_img" src="image/Layer4.png" alt="image">
+                    <img class="popular__card_img" src="image/Layer7.png" alt="image">
                 </div>
                 <div class="popular__card-description">
                     <h5 class="popular__item-name">Mango People T-shirt</h5>
@@ -147,7 +162,7 @@
                     <div class="popular__popupBuy">
                         <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
                     </div>
-                    <img class="popular__card_img" src="image/Layer4.png" alt="image">
+                    <img class="popular__card_img" src="image/Layer8.png" alt="image">
                 </div>
                 <div class="popular__card-description">
                     <h5 class="popular__item-name">Mango People T-shirt</h5>
@@ -159,19 +174,7 @@
                     <div class="popular__popupBuy">
                         <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
                     </div>
-                    <img class="popular__card_img" src="image/Layer4.png" alt="image">
-                </div>
-                <div class="popular__card-description">
-                    <h5 class="popular__item-name">Mango People T-shirt</h5>
-                    <p class="popular__price">$50</p>
-                </div>
-            </div>
-            <div class="popular__card">
-                <div class="popular__card-wrap">
-                    <div class="popular__popupBuy">
-                        <button class="popular__card-button_buy"><i class="fas fa-cart-plus"></i>&nbsp;&nbsp;Add to Cart</button>
-                    </div>
-                    <img class="popular__card_img" src="image/Layer4.png" alt="image">
+                    <img class="popular__card_img" src="image/Layer9.png" alt="image">
                 </div>
                 <div class="popular__card-description">
                     <h5 class="popular__item-name">Mango People T-shirt</h5>
@@ -218,9 +221,101 @@
                         <p class="feedback-author__from">Dubai</p>
                     </div>
                 </div>
-                <div class="ellipsis"></div>
+                <div class="ellipsis">
+                    <div class="ellipsis__item"></div>
+                    <div class="ellipsis__item"></div>
+                    <div class="ellipsis__item"></div>
+                </div>
             </div>
-            <div class="subscription"></div>
+            <div class="subscription">
+                <div class="subscription__title">Subscribe </div>
+                <p class="subscription__subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                <form name="subscription-form" class="subscription__form">
+                    <input class="subscription__input" type="email" placeholder="mail@mail.ru">
+                    <button class="subscription__btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footerWrap container">
+            <div class="footer__aboutSite">
+                <a class="logo" href="#">BRAN<span>D</span></a>
+                <p class="footer__aboutSite_paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nesciunt dignissimos ipsa quibusdam officia ipsam earum non! Quas eveniet dolorum dignissimos facilis deserunt obcaecati alias vitae, possimus enim aperiam illo a molestias veniam atque rerum! Ipsum culpa velit facere aperiam?</p>
+            </div>
+            <div class="footer__barWrap">
+                <div class="footer__company">
+                    <h3 class="footer__company_name">Company</h3>
+                    <ul class="footer__company-bar">
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Home</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Shop</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">About</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">How It Works</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__information">
+                    <h3 class="footer__footer__information_name">Information</h3>
+                    <ul class="footer__footer__information-bar">
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Tearms&Condition</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Privacy Policy</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">How to By</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">How to Sell</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Promotion</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__shopCategory">
+                    <h3 class="footer__shopCategory_name">Shop Category</h3>
+                    <ul class="footer__shopCategory-bar">
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Men</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Women</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Ghild</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Apparel</a>
+                        </li>
+                        <li class="footer__item-link">
+                            <a class="footer__link" href="#">Brows All</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="copyrightWrap container">&#169;2020 Brand All Rights Reserved. Author&nbsp;Evdokimov&nbsp;Victor
+            <div class="copyright__content-list">
+                <a href="#" class="copyright__link"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="copyright__link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="copyright__link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="copyright__link"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#" class="copyright__link"><i class="fab fa-google-plus-g"></i></a>
+            </div>
         </div>
     </div>
 </body>

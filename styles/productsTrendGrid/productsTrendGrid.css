@@ -1,0 +1,17 @@
+.productsTrendGridWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.productsTrendGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(215px, 260px));
+    margin-top: 40px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+}

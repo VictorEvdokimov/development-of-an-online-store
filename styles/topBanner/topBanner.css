@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 509px;
+    max-width: 44%;
     height: 92px;
     padding-left: 12px;
     border-left: 12px solid #f16d7f;
@@ -27,7 +27,7 @@
 
 .topBanner__title h1 {
     font-size: 60px;
-    line-height: 40px;
+    line-height: 45px;
     letter-spacing: 1.5px;
     font-weight: 900;
 }
@@ -35,10 +35,53 @@
 .topBanner__paragraph {
     font-size: 40px;
     font-weight: 900;
-    line-height: 29px;
-    font-weight: 900;
+    line-height: 30px;
 }
 
 .topBanner__title span {
     color: #f16d7f;
+}
+
+@media (max-width: 1085px) {
+    .topBanner__title {
+        height: auto;
+    }
+
+    .topBanner__title h1 {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+
+    .topBanner__paragraph {
+        font-size:  2.5vw;
+        margin-top: 5px;
+        line-height: 3vw;
+    }
+
+    .topBanener__img {
+        width: 59vw;
+        height: 60vw;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 840px) {
+    .topBanner__title h1 {
+        /* font-size: 35px; */
+    }
+
+    .topBanner__paragraph {
+        /* font-size: 25px; */
+    }
+}
+
+@media (max-width: 670px) {
+    .topBanner__title h1 {
+        /* font-size: 30px; */
+    }
+
+    .topBanner__paragraph {
+        /* font-size: 20px;
+        line-height: 19px; */
+    }
 }

@@ -1,0 +1,33 @@
+.modelSlider {
+    position: relative;
+}
+
+.model__img {
+    min-height: 777px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.modelSlider__slider {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    width: 47px;
+    color: #ffffff;
+    background-color: #d8d8d8;
+    font-size: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.modelSlider__slider_left {
+    left: 0;
+    top: calc(50% - 23.5px);
+}
+
+.modelSlider__slider_right {
+    right: 0;
+    top: calc(50% - 23.5px);
+}

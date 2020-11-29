@@ -1,0 +1,33 @@
+.productsPagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    color: #c4c4c4;
+}
+
+.productsPaginationNav {
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    width: 261px;
+    height: 44px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.productsPaginationNav a {
+    color: #c4c4c4;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.productsPaginationButton {
+    width: 150px;
+    line-height: 44px;
+    border-radius: 3px;
+    text-align: center;
+    color: #f16d7f;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #f16d7f;
+}

@@ -6,3 +6,16 @@
 @import "popular/popular.css";
 @import "offer/offer.css";
 @import "feedback-subscription/feedback-subscription.css";
+@import "footer/footer.css";
+@import "copyright/copyright.css";
+@import "crumbs/crumbs.css";
+@import "products/products.css";
+@import "orderFormation/orderFormation.css";
+@import "model/model.css";
+@import "model/modelDataWrap.css";
+@import "alsoLike/alsoLike.css";
+@import "trendingNow/trendingNow.css";
+@import "productsTrendGrid/productsTrendGrid.css";
+@import "productsPagination/productsPagination.css";
+@import "offer/productOffer.css";
+@import "checkOut/checkOut.css";
