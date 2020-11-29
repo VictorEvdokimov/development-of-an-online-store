@@ -12,7 +12,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+.headerContent> div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
 
 .logo {
     background: url(../../image/group_2_18.png) no-repeat;
@@ -36,7 +45,7 @@
 
 .searchForm {
     width: 403px;
-    height: 38px;
+    /* height: 38px; */
     margin-left: 37px;
 }
 
@@ -62,8 +71,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
     box-sizing: border-box;
 }
 
@@ -80,7 +89,7 @@
 }
 
 .inputSearch {
-    width: 279px;
+    width: 60%;
     height: 38px;
     background-color: #ffffff;
     border: none;
@@ -88,6 +97,7 @@
     border-bottom: 1px solid #e6e6e6;
     padding-left: 15px;
     padding-right: 8px;
+    flex-grow: 1;
 }
 
 .myBasket {
@@ -107,4 +117,55 @@
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #ffffff;
+}
+
+@media (max-width: 830px) {
+    .headerContent {
+        justify-content: center;
+        padding-top: 10px;
+    padding-bottom: 10px;    }
+}
+
+@media (max-width: 640px) {
+    .header {
+        padding-bottom: 10px;
+    }
+    .headerContent {
+        flex-direction: column;
+    }
+
+    .headerContent> div {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .searchForm {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 70%;
+    }
+}
+
+@media (max-width: 510px) {
+    .inputSearch {
+        height: 32px;
+    }
+
+    .account {
+        height: 32px;
+    }
+}
+
+@media (max-width: 420px) {
+    .browse {
+        font-size: 12px;
+    }
+
+    .inputSearch {
+        height: 26px;
+    }
+
+    .account {
+        height: 26px;
+    }
 }

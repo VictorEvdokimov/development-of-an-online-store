@@ -133,3 +133,18 @@
         grid-column-gap: 12vw;
     }
 }
+
+@media (max-width: 600px) {
+    .popular__cards-list {
+        grid-template-columns: repeat(1, minmax(220px, 285px));
+        /* grid-column-gap: 12vw; */
+    }
+
+    .popular__card-wrap {
+        height: auto;
+    }
+
+    .popular__card_img {
+        height: auto;
+    }
+}

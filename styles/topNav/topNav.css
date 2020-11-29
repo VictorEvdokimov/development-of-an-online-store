@@ -5,6 +5,7 @@
     margin: 0 auto;
     height: 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .topNav a {
@@ -24,4 +25,33 @@
 
 .topNav a:hover {
     border-bottom: 3px solid #ef5b70;
+}
+
+@media (max-width: 740px) {
+    .topNav a {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .topNav {
+        height: 30px;
+    }
+}
+
+@media (max-width: 520px) {
+    .topNav {
+        height: 23px;
+    }
+
+    .topNav a {
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+
+@media (max-width: 420px) {
+    .topNav a {
+        font-size: 8px;
+        line-height: 13px;
+    }
 }
