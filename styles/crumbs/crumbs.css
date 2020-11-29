@@ -30,3 +30,28 @@
     color: #f16d7f;
     font-weight: 700;
 }
+
+@media (max-width:600px) {
+    .crumbs__content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .crumbs__links {
+        margin-top: 8px;
+    }
+
+    .crumbs__content {
+        height: 25vw;
+    }
+}
+
+@media (max-width:480px) {
+    .crumbs__links a {
+        font-size: 11px;
+    }
+
+    .crumbs__title {
+        font-size: 5vw;
+    }
+}
