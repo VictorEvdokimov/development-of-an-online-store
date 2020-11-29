@@ -30,3 +30,34 @@
 .copyright__link:not(:last-child) {
     margin-right: 8px;
 }
+
+@media (max-width: 1180px) {
+    .copyrightWrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 680px) {
+    .copyrightWrap {
+        font-size: 13px;
+        line-height: 30px;
+    }   
+}
+
+@media (max-width: 520px) {
+    .copyrightWrap {
+        font-size: 13px;
+        line-height: 27px;
+    }   
+}
+
+@media (max-width: 450px) {
+    .copyrightWrap {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        height: auto;
+    }
+}

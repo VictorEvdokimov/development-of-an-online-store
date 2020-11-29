@@ -23,9 +23,9 @@
 }
 
 .fetured-items__card_img {
-    max-width: 560px;
     display: block;
     width: 100%;
+    object-fit: cover;
 }
 
 .fetured-items__card-label {
@@ -55,4 +55,48 @@
     font-weight: 900;
     letter-spacing: 0.75px;
     color: #f16d7f;
+}
+
+@media (max-width: 1024px) {
+    .fetured-items__card-lable_direction {
+        font-size: 22px;
+        line-height: 21px;
+    }
+
+    .fetured-items__card-label_title {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .fetured-items__card-label {
+        height: auto;
+    }
+}
+
+@media (max-width: 840px) {
+    .fetured-items__card-label {
+        padding: 7px 7px;
+    }
+
+    .fetured-items__card-lable_direction {
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .fetured-items__card-label_title {
+        font-size: 10px;
+        line-height: 11px;
+    }
+}
+
+@media (max-width: 600px) {
+    .fetured-items__content {
+        flex-direction: column;
+        padding: 0 8% 0 8%;
+    }
+    
+    .fetured-items-column:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
 }
