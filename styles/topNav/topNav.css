@@ -44,14 +44,18 @@
     }
 
     .topNav a {
-        font-size: 10px;
-        line-height: 13px;
+        font-size: 12px;
+        line-height: 14px;
     }
 }
 
 @media (max-width: 420px) {
+    .topNav {
+        justify-content: start;
+        height: auto;
+    }
+
     .topNav a {
-        font-size: 8px;
-        line-height: 13px;
+        margin: 0 7px 4px 0;
     }
 }

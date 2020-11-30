@@ -184,3 +184,76 @@
 .model__button-AddToCart> img {
     margin-right: 15px;
 }
+
+@media (max-width:960px) {
+    .modelData {
+        margin-top: 50px;
+        padding-bottom: 65px;
+    }
+
+    .modelData__aboutProduct {
+        max-width: 80%;
+    }
+}
+
+@media (max-width:740px) {
+    .modelDataWrap {
+        top: -40px;
+    }   
+}
+
+@media (max-width:620px) {
+    .modelData__aboutProduct {
+        margin-top: 30px;
+    }
+    
+    .modelProductOrder {
+        margin-top: 20px;
+    }
+
+    .model__price {
+        margin-top: 23px;
+        padding-bottom: 13px;
+    }
+
+    .modelProductOrderUnit {
+        width: 26vw;
+    }
+
+    .modelProductOrder__content {
+        width: 85vw;
+    }
+}
+
+@media (max-width:475px) {
+    .modelProductOrder__content {
+        flex-direction: column;
+    }
+
+    .modelProductOrderUnit {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .modelProductSelectWrap {
+        width: 124px;
+        margin-right: 9vw;
+    }
+
+    .modelProductSelectWrap select {
+        width: 76%;
+    }
+
+    .modelProductOrderUnit> input {
+        width: 124px;
+        margin-right: 9vw;
+    }
+}
+
+@media (max-width:370px) {
+    .modelCharacteristics {
+        flex-direction: column;
+        min-width: 80%;
+    }
+}

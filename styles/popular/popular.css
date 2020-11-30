@@ -57,7 +57,7 @@
 }
 
 .popular__card:hover {
-    box-shadow: 0px 5px 8px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16);
 }
 
 .popular__card_img {
