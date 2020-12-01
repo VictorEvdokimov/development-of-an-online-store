@@ -31,3 +31,16 @@
     cursor: pointer;
     border: 1px solid #f16d7f;
 }
+
+@media (max-width: 680px) {
+    .productsPagination {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 760px) {
+    .productsPagination {
+        margin-top: 15px;
+    }
+}

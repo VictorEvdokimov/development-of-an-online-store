@@ -53,6 +53,8 @@
     .topNav {
         justify-content: start;
         height: auto;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
     .topNav a {

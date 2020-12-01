@@ -59,8 +59,6 @@
     }
 }
 
-
-
 .percent {
     animation: percent 5s linear normal infinite;
 }
@@ -71,5 +69,45 @@
     }
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1024px) {
+    .productOffer {
+        margin-top: 40px;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 960px) {
+    .productOffer__content {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .productOffer__content-item {
+        width: calc(100%/3 - 10px);
+    }
+
+    .productOffer__description {
+        text-align: start;
+    }
+}
+
+@media (max-width: 660px) {
+    .productOffer__content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .productOffer__content-item {
+        width: 85%;
+    }
+
+    .productOffer__title {
+        margin-top: 5px;
     }
 }
