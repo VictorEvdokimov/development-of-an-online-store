@@ -6,12 +6,14 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 79px;
+    flex-wrap: wrap;
 }
 
 .orderFormationWrap> form {
     display: flex;
     flex-direction: column;
     width: 355px;
+    min-width: 237px;
 }
 
 .orderFormationWrap input {
@@ -67,12 +69,15 @@
 }
 
 .orderFormation-payment {
+    box-sizing: border-box;
     height: fit-content;
     padding-top: 40px;
     padding-bottom: 42px;
     padding-left: 42px;
     padding-right: 42px;
     background-color: #f5f3f3;
+    width: 355px;
+    min-width: 237px;
 }
 
 .orderFormation-paymentWrap {
@@ -111,11 +116,74 @@
 }
 
 .orderFormation-payment__btn {
-    width: 272px;
+    width: 100%;
     height: 50px;
     margin-top: 17px;
     background-color: #f16d7f;
     font-size: 16px;
     font-weight: 700;
     color: #ffffff;
+}
+
+@media (max-width: 1170px) {
+    .orderFormation {
+        margin-top: 23px;
+    }
+
+    .orderFormationWrap {
+        padding: 0 14px;
+    }
+
+    .orderFormationWrap> form {
+        min-width: 237px;
+        width: auto;
+        flex-grow: 1;
+        margin-top: 20px;
+    }
+
+    .orderFormation-coupon__form {
+        padding-left: 17px;
+        padding-right: 17px;
+        box-sizing: border-box;
+    }
+
+    .orderFormation-payment {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .orderFormation-payment {
+        min-width: 237px;
+        width: auto;
+        flex-grow: 1;
+    }
+}
+
+@media (max-width: 900px) {
+    .orderFormation-paymentWrap> :last-child {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 774px) {
+    .orderFormation-paymentWrap {
+        align-items: center;
+    }
+}
+
+@media (max-width: 770px) {
+    .orderFormationWrap {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 537px) {
+    .orderFormation-coupon__title {
+        margin-top: 15px;
+    }
+
+    .orderFormation-coupon__subtitle {
+        margin-top: 12px;
+    }
 }

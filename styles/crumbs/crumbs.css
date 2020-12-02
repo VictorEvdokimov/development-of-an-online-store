@@ -31,6 +31,13 @@
     font-weight: 700;
 }
 
+@media (max-width:1200px) {
+    .crumbs__content {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
 @media (max-width:600px) {
     .crumbs__content {
         flex-direction: column;
